@@ -1,6 +1,10 @@
+import NewTodoForm from "@/components/NewTodoForm"
+
 const DashboardLayout = ({children}) => {
   return (
-    <div>DashboardLayout {children}</div>
+    <div>DashboardLayout 
+        <div><NewTodoForm/></div>
+        {children}</div>
   )
 }
 
